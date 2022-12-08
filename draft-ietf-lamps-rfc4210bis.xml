@@ -2026,7 +2026,7 @@ follows:
           <name>PKI Confirmation Content</name>
           <t>
    This data structure is used in the protocol exchange as the final
-   PKIMessage.  Its content is the same in all cases -- actually there
+   PKIMessage. Its content is the same in all cases -- actually there
    is no content since the PKIHeader carries all the required
    information.</t>
 		  <sourcecode type="asn.1" ><![CDATA[
