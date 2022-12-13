@@ -82,7 +82,7 @@
     <date year="2022"/>
     <workgroup>LAMPS Working Group</workgroup>
     <abstract>
-      <t>This document describes the Internet X.509 Public Key Infrastructure (PKI) Certificate Management Protocol (CMP).  Protocol messages are defined for X.509v3 certificate creation and management. CMP provides interactions between client systems and PKI components such as a Registration Authority (RA) and a Certification Authority (CA).</t>
+      <t>This document describes the Internet X.509 Public Key Infrastructure (PKI) Certificate Management Protocol (CMP). Protocol messages are defined for X.509v3 certificate creation and management. CMP provides interactions between client systems and PKI components such as a Registration Authority (RA) and a Certification Authority (CA).</t>
       <t>This document includes the updates on RFC 4210 specified by CMP Updates [RFCAAAA] Section 2 and Appendix A.2 maintaining backward compatibility with CMP version 2 wherever possible and obsoleted both documents.  Updates to CMP version 2 are: improving crypto agility, extending the polling mechanism, adding new general message types, and adding extended key usages to identify special CMP server authorizations.  Introducing version 3 to be used only for changes to the ASN.1 syntax, which are: support of EnvelopedData instead of EncryptedValue and hashAlg for indicating a hash AlgorithmIdentifier in certConf messages.</t>
 	  <t>Appendix F of this document contains the updated 2002 ASN.1 module originating from RFC 5912.</t>
     </abstract>
